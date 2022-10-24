@@ -70,11 +70,10 @@ class StickerDetailsActivity : AppCompatActivity() {
             try {
                 startActivityForResult(intent, ADD_PACK)
             } catch (e: ActivityNotFoundException) {
-                Toast.makeText(this@StickerDetailsActivity, "No se añadió el paquete de stickers. Si deseas añadirlo, instala o actualiza WhatsApp.", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@StickerDetailsActivity, "The sticker pack was not added. If you want to add it, install or update WhatsApp.", Toast.LENGTH_LONG).show()
             }
         }
-        mcvAddToTelegram.setOnClickListener { openInCustomTab(stickerPackView!!.publisherWebsite) }
-
+       
     }
 
     private fun getStickerPack() {

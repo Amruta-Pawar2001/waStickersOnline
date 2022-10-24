@@ -15,6 +15,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/grey"
             android:paddingStart="@dimen/space_16"
             android:paddingTop="@dimen/space_8"
             android:paddingEnd="@dimen/space_16"
@@ -23,6 +24,7 @@
             <TextView
                 style="@style/ToolbarTitle"
                 android:text="Stickers"
+                android:backgroundTint="@color/grey"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

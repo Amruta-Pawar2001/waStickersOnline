@@ -164,34 +164,24 @@
             </androidx.cardview.widget.CardView>
         </FrameLayout>
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:layout_marginStart="@dimen/space_8">
+<!--        <FrameLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginStart="@dimen/space_8">-->
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/mcvAddToTelegram"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                app:cardBackgroundColor="@color/redCardBackground"
-                app:cardCornerRadius="@dimen/space_16"
-                android:foreground="?attr/selectableItemBackgroundBorderless">
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/mcvAddToTelegram"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="bottom"-->
+<!--                app:cardBackgroundColor="@color/redCardBackground"-->
+<!--                app:cardCornerRadius="@dimen/space_16"-->
+<!--                android:foreground="?attr/selectableItemBackgroundBorderless">-->
 
-                <TextView
-                    style="@style/StickerPreviewButtonText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:background="@android:color/transparent"
-                    android:clickable="false"
-                    android:drawablePadding="8dp"
-                    android:focusable="false"
-                    android:text="AÑADIR A TELEGRAM" />
 
-            </androidx.cardview.widget.CardView>
-        </FrameLayout>
+<!--            </androidx.cardview.widget.CardView>-->
+<!--        </FrameLayout>-->
 
     </LinearLayout>
 

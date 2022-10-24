@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
 
         loadStickers()
 
-
         path = "$filesDir/stickers_asset"
 
         permissions
